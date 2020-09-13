@@ -47,7 +47,7 @@ import static co.enear.maven.plugins.keepachangelog.InitMojo.UNRELEASED_VERSION;
  */
 public class TagUtils {
 
-    private static final String VERSION_ID = "version";
+    private static final String VERSION_ID = "ver";
     public static final String DEFAULT_TAG_FORMAT = "v${" + VERSION_ID + "}";
 
     private static final String HEAD = "HEAD";
